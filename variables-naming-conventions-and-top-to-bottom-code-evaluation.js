@@ -24,9 +24,16 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+// let a = "Alice";
+// let b = 5;
+// let c = 20;
+// let d = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+// console.log(d);
+
+let userName = "Alice";
+let numberOfItems = 5; 
+let priceOfItems = 20;
+let itemsPurchased = userName + " bought " + numberOfItems  + " items for $" + priceOfItems + ".";
+
+console.log(itemsPurchased);
